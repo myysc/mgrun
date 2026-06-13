@@ -103,12 +103,37 @@ jobs:
         git config user.name "github-actions"
         git config user.email "github-actions@users.noreply.github.com"
         
-        # 确保目录存在
-        mkdir -p mg data
+        # 确保 data 目录存在
+        mkdir -p data
         
-        # 复制生成的文件
-        cp -r ${{ github.workspace }}/mg/* /tmp/push-repo/mg/ 2>/dev/null || echo "没有mg文件需要复制"
-        cp -r ${{ github.workspace }}/data/* /tmp/push-repo/data/ 2>/dev/null || echo "没有data文件需要复制"
+        # 【新增】清空私库中的 mg 目录所有文件，但保留目录结构
+        if [ -d "/tmp/push-repo/mg" ]; then
+          echo "正在清空私库中的 mg 目录..."
+          # 删除 mg 目录下的所有内容，但保留 mg 目录本身
+          rm -rf /tmp/push-repo/mg/*
+          echo "mg 目录已清空"
+        else
+          echo "mg 目录不存在，将创建新目录"
+          mkdir -p /tmp/push-repo/mg
+        fi
+        
+        # 复制生成的文件（mg 目录）
+        if [ -d "${{ github.workspace }}/mg" ] && [ -n "$(ls -A ${{ github.workspace }}/mg 2>/dev/null)" ]; then
+          echo "复制 mg 文件到私库..."
+          cp -r ${{ github.workspace }}/mg/* /tmp/push-repo/mg/ 2>/dev/null
+          echo "mg 文件已复制"
+        else
+          echo "没有 mg 文件需要复制"
+        fi
+        
+        # 复制生成的文件（data 目录）
+        if [ -d "${{ github.workspace }}/data" ] && [ -n "$(ls -A ${{ github.workspace }}/data 2>/dev/null)" ]; then
+          echo "复制 data 文件到私库..."
+          cp -r ${{ github.workspace }}/data/* /tmp/push-repo/data/ 2>/dev/null
+          echo "data 文件已复制"
+        else
+          echo "没有 data 文件需要复制"
+        fi
         
         echo "文件已复制到私库，准备提交..."
         
