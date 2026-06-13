@@ -1,4 +1,4 @@
-name: proxy_miguscan
+name: migu_scan
 
 on:
   schedule:
@@ -9,7 +9,6 @@ permissions:
   contents: write
 
 env:
-  # 提前测试 Node.js 24
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
@@ -67,13 +66,13 @@ jobs:
         fi
         
         # 复制 migu 目录中的所有文件
-        if [ -d "/tmp/private-repo/migu" ]; then
+        if [ -d "/tmp/private-repo/data" ]; then
           echo "复制 migu 目录中的文件..."
           mkdir -p ${{ github.workspace }}/migu
-          cp -r /tmp/private-repo/migu/* ${{ github.workspace }}/migu/ 2>/dev/null || echo "没有找到文件或目录为空"
+          cp -r /tmp/private-repo/data/* ${{ github.workspace }}/data/ 2>/dev/null || echo "没有找到文件或目录为空"
           echo "migu 文件已复制"
         else
-          echo "警告: /tmp/private-repo/migu 目录不存在"
+          echo "警告: /tmp/private-repo/data 目录不存在"
         fi
         
         # 清理临时目录
@@ -115,9 +114,6 @@ jobs:
           mkdir -p /tmp/push-repo/migu
         fi
         
-        # 确保 IP 子目录存在
-        mkdir -p /tmp/push-repo/migu/IP
-        
         # 复制生成的文件（migu 目录）
         if [ -d "${{ github.workspace }}/migu" ] && [ -n "$(ls -A ${{ github.workspace }}/migu 2>/dev/null)" ]; then
           echo "复制 migu 文件到私库..."
@@ -154,6 +150,3 @@ jobs:
       run: |
         echo "Generated files in migu:"
         ls -la migu/ || echo "No files in migu/"
-        echo ""
-        echo "Generated files in migu/IP:"
-        ls -la migu/IP/ || echo "No files in migu/IP/"
