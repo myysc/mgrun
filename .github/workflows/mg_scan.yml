@@ -1,4 +1,4 @@
-name: proxy_mgscan
+name: mg_scan
 
 on:
   schedule:
