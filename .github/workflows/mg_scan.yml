@@ -32,14 +32,106 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         
+    - name: 清理旧数据 🗑️
+      run: |
+        # 删除mg/IP目录中的文件
+        if [ -d "${{ github.workspace }}/mg/IP" ]; then
+          rm -rf ${{ github.workspace }}/mg/IP/*
+          echo "已清理mg/IP目录"
+        fi
+        # 删除data目录中的文件
+        if [ -d "${{ github.workspace }}/data" ]; then
+          rm -rf ${{ github.workspace }}/data/*
+          echo "已清理data目录"
+        fi
+        
     - name: Create necessary directories
       run: |
-        mkdir -p mg/IP
-        mkdir -p data
+        mkdir -p ${{ github.workspace }}/mg
+        mkdir -p ${{ github.workspace }}/data
+        mkdir -p ${{ github.workspace }}/py
+        
+    - name: 从私库复制文件
+      run: |
+        # 克隆私库到临时目录
+        git clone https://${{ secrets.REPOMGTV }}@github.com/myysc/mgtv.git /tmp/private-repo
+        
+        # 复制 mg_scan.py 文件
+        if [ -f "/tmp/private-repo/py/mg_scan.py" ]; then
+          echo "复制 mg_scan.py 文件..."
+          cp /tmp/private-repo/py/mg_scan.py ${{ github.workspace }}/py/
+          echo "mg_scan.py 已复制"
+        else
+          echo "警告: /tmp/private-repo/py/mg_scan.py 不存在"
+        fi
+        
+        # 复制 data 目录中的所有文件
+        if [ -d "/tmp/private-repo/data" ]; then
+          echo "复制 data 目录中的文件..."
+          mkdir -p ${{ github.workspace }}/data
+          cp -r /tmp/private-repo/data/* ${{ github.workspace }}/data/ 2>/dev/null || echo "没有找到文件或目录为空"
+          echo "data 文件已复制"
+        else
+          echo "警告: /tmp/private-repo/data 目录不存在"
+        fi
+        
+        # 清理临时目录
+        rm -rf /tmp/private-repo
+        echo "私库文件复制完成"
         
     - name: Run proxy scanner
       run: |
         python py/mg_scan.py
+        
+    - name: 推送文件到私库
+      run: |
+        # 检查是否有生成的文件需要推送
+        if [ -z "$(ls -A ${{ github.workspace }}/mg 2>/dev/null)" ] && [ -z "$(ls -A ${{ github.workspace }}/data 2>/dev/null)" ]; then
+          echo "警告: 没有生成任何文件，跳过推送"
+          exit 0
+        fi
+        
+        echo "开始推送文件到私库..."
+        
+        # 克隆私库到临时目录
+        git clone https://${{ secrets.REPOMGTV }}@github.com/myysc/mgtv.git /tmp/push-repo
+        
+        # 进入私库目录
+        cd /tmp/push-repo
+        
+        # 配置 git 用户信息
+        git config user.name "github-actions"
+        git config user.email "github-actions@users.noreply.github.com"
+        
+        # 确保目录存在
+        mkdir -p mg data
+        
+        # 复制生成的文件
+        cp -r ${{ github.workspace }}/mg/* /tmp/push-repo/mg/ 2>/dev/null || echo "没有mg文件需要复制"
+        cp -r ${{ github.workspace }}/data/* /tmp/push-repo/data/ 2>/dev/null || echo "没有data文件需要复制"
+        
+        echo "文件已复制到私库，准备提交..."
+        
+        # 添加文件到暂存区
+        git add mg/ data/
+        
+        # 检查是否有变更需要提交
+        if git diff --cached --quiet; then
+          echo "没有变更需要提交"
+        else
+          # 提交变更
+          git commit -m "mg更新 proxy IP $(date '+%Y-%m-%d %H:%M:%S')"
+          
+          # 推送到私库
+          echo "正在推送到私库..."
+          git push origin main
+          echo "文件已成功推送到私库"
+        fi
+        
+        # 清理临时目录
+        cd /
+        rm -rf /tmp/push-repo
+        echo "推送任务完成"
         
     - name: List generated files
       run: |
@@ -48,29 +140,3 @@ jobs:
         echo ""
         echo "Generated files in data:"
         ls -la data/ || echo "No files in data/"
-        
-    - name: Commit and push if changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        # 显示当前状态（调试用）
-        echo "Current git status:"
-        git status
-        
-        # 添加所有生成的目录
-        git add mg/ data/
-        
-        # 显示暂存区状态（调试用）
-        echo "Files staged:"
-        git diff --cached --name-only
-        
-        # 检查是否有变更
-        if git diff --cached --quiet; then
-          echo "没有发现文件变化，跳过提交"
-        else
-          echo "发现文件变化，准备提交..."
-          git commit -m "mg更新 proxy IP $(date '+%Y-%m-%d %H:%M:%S')"
-          git push
-          echo "已成功提交并推送更新"
-        fi
