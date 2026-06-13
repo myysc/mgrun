@@ -65,12 +65,12 @@ jobs:
           echo "警告: /tmp/private-repo/py/migu_scan.py 不存在"
         fi
         
-        # 复制 migu 目录中的所有文件
+        # 复制 data 目录中的所有文件
         if [ -d "/tmp/private-repo/data" ]; then
-          echo "复制 migu 目录中的文件..."
-          mkdir -p ${{ github.workspace }}/migu
+          echo "复制 data 目录中的文件..."
+          mkdir -p ${{ github.workspace }}/data
           cp -r /tmp/private-repo/data/* ${{ github.workspace }}/data/ 2>/dev/null || echo "没有找到文件或目录为空"
-          echo "migu 文件已复制"
+          echo "data 文件已复制"
         else
           echo "警告: /tmp/private-repo/data 目录不存在"
         fi
