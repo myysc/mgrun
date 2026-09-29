@@ -1,0 +1,638 @@
+# 生成时间: 2026-09-29 07:09:42
+# 使用代理IP: 59.110.175.70:10000 (延迟: 816.8ms)
+# M3U来源: http://59.110.175.70:10000/
+#============================================================
+
+央视频道,#genre#
+CCTV1综合,http://ip-port/608807420
+CCTV2财经,http://ip-port/631780532
+CCTV3综艺,http://ip-port/624878271
+CCTV4中文国际,http://ip-port/631780421
+CCTV5体育,http://ip-port/641886683
+CCTV5+体育赛事,http://ip-port/641886773
+CCTV6电影,http://ip-port/624878396
+CCTV7国防军事,http://ip-port/673168121
+CCTV8电视剧,http://ip-port/624878356
+CCTV9纪录,http://ip-port/673168140
+CCTV10科教,http://ip-port/624878405
+CCTV11戏曲,http://ip-port/667987558
+CCTV12社会与法,http://ip-port/673168185
+CCTV13新闻,http://ip-port/608807423
+CCTV14少儿,http://ip-port/624878440
+CCTV15音乐,http://ip-port/673168223
+CCTV17农业农村,http://ip-port/673168256
+CCTV4欧洲,http://ip-port/608807419
+CCTV4美洲,http://ip-port/608807416
+CGTN外语纪录,http://ip-port/609006487
+CGTN阿拉伯语,http://ip-port/609154345
+CGTN西班牙语,http://ip-port/609006450
+CGTN法语,http://ip-port/609006476
+CGTN俄语,http://ip-port/609006446
+老故事,http://ip-port/884121956
+发现之旅,http://ip-port/624878970
+中学生,http://ip-port/708869532
+CGTN,http://ip-port/609017205
+
+卫视频道,#genre#
+东方卫视,http://ip-port/651632648
+江苏卫视,http://ip-port/623899368
+广东卫视,http://ip-port/608831231
+北京卫视,http://ip-port/630287636
+辽宁卫视,http://ip-port/630291707
+河北卫视,http://ip-port/962042070
+江西卫视,http://ip-port/783847495
+河南卫视,http://ip-port/790187291
+陕西卫视,http://ip-port/738910838
+大湾区卫视,http://ip-port/608917627
+湖北卫视,http://ip-port/947472496
+吉林卫视,http://ip-port/947472500
+青海卫视,http://ip-port/947472506
+东南卫视,http://ip-port/849116810
+海南卫视,http://ip-port/947472502
+海峡卫视,http://ip-port/849119120
+中国农林卫视,http://ip-port/956904896
+兵团卫视,http://ip-port/956923145
+宁夏卫视,http://ip-port/738910535
+重庆卫视,http://ip-port/738910914
+三沙卫视,http://ip-port/961023778
+
+地方频道,#genre#
+上海新闻综合,http://ip-port/651632657
+上视东方影视,http://ip-port/617290047
+上海第一财经,http://ip-port/608780988
+南京新闻综合频道,http://ip-port/838109047
+南京教科频道,http://ip-port/838153729
+南京十八频道,http://ip-port/838151753
+体育休闲频道,http://ip-port/626064707
+江苏城市频道,http://ip-port/626064714
+江苏国际,http://ip-port/626064674
+江苏教育,http://ip-port/628008321
+江苏影视频道,http://ip-port/626064697
+江苏综艺频道,http://ip-port/626065193
+公共新闻频道,http://ip-port/626064693
+盐城新闻综合,http://ip-port/639731825
+淮安新闻综合,http://ip-port/639731826
+泰州新闻综合,http://ip-port/639731818
+连云港新闻综合,http://ip-port/639731715
+宿迁新闻综合,http://ip-port/639731832
+徐州新闻综合,http://ip-port/639731747
+优漫卡通频道,http://ip-port/626064703
+江阴新闻综合,http://ip-port/955227979
+南通新闻综合,http://ip-port/955227985
+宜兴新闻综合,http://ip-port/955227996
+溧水新闻综合,http://ip-port/639737327
+陕西银龄频道,http://ip-port/956909362
+陕西都市青春频道,http://ip-port/956909358
+陕西体育休闲频道,http://ip-port/956909356
+陕西秦腔频道,http://ip-port/956909303
+陕西新闻资讯频道,http://ip-port/956909289
+财富天下,http://ip-port/956923159
+镇江新闻综合,http://ip-port/639731783
+海南广播电视总台新闻频道,http://ip-port/962067517
+海南广播电视总台自贸频道,http://ip-port/962045226
+海南广播电视总台社会与法频道,http://ip-port/962045223
+海南广播电视总台文旅频道,http://ip-port/962067526
+海南广播电视总台少儿频道,http://ip-port/962067523
+
+其他频道,#genre#
+中国航天“逆袭”之路,http://ip-port/713600957
+经典香港电影,http://ip-port/625703337
+中国天气,http://ip-port/959986621
+赛事最经典,http://ip-port/646596895
+体坛名栏汇,http://ip-port/629943305
+四海钓鱼,http://ip-port/637444975
+24小时城市联赛轮播台,http://ip-port/915512915
+武术世界,http://ip-port/958475359
+快乐垂钓,http://ip-port/961930263
+CETV1,http://ip-port/923287154
+CETV2,http://ip-port/923287211
+CETV4,http://ip-port/923287339
+山东教育,http://ip-port/609154353
+抗战经典影片,http://ip-port/617432318
+新片放映厅,http://ip-port/619495952
+CHC影迷电影,http://ip-port/952383261
+CHC动作电影,http://ip-port/644368714
+CHC家庭影院,http://ip-port/644368373
+和美乡途轮播台,http://ip-port/713591450
+南方影视,http://ip-port/614961829
+最强综艺趴,http://ip-port/629942228
+嘉佳卡通,http://ip-port/614952364
+经典动画大集合,http://ip-port/629942219
+新动漫,http://ip-port/961930269
+新动力量创一流,http://ip-port/713589837
+中华特产,http://ip-port/959986618
+环球旅游,http://ip-port/958475356
+梨园频道,http://ip-port/961930369
+熊猫频道01高清,http://ip-port/609158151
+熊猫频道1,http://ip-port/608933610
+熊猫频道2,http://ip-port/608933640
+熊猫频道3,http://ip-port/608934619
+熊猫频道4,http://ip-port/608934721
+熊猫频道5,http://ip-port/608935104
+熊猫频道6,http://ip-port/608935797
+熊猫频道7,http://ip-port/609169286
+熊猫频道8,http://ip-port/609169287
+熊猫频道9,http://ip-port/609169226
+熊猫频道10,http://ip-port/609169285
+
+涛哥频道,#genre#
+德甲升降级附加赛 沃尔夫斯堡VS帕德博恩 王子睿 02:15,http://ip-port/964916822
+德甲升降级附加赛 沃尔夫斯堡VS帕德博恩 赛场原声 02:15,http://ip-port/964916804
+德甲升降级附加赛 沃尔夫斯堡VS帕德博恩 智能字幕 02:15,http://ip-port/964916847
+UFC BJJ 穆苏梅奇莫拉双线告捷！成功卫冕金腰带 王琰博 郝俊 08:00,http://ip-port/964889060
+NBA 尼克斯VS骑士 庄宁宇 陈正昊 徐咏 07:30,http://ip-port/964862785
+NBA 尼克斯VS骑士 吴博文 07:55,http://ip-port/964862793
+NBA 尼克斯VS骑士 英文原声 07:55,http://ip-port/964862839
+NBA 尼克斯VS骑士 智能字幕 07:55,http://ip-port/964862848
+咪咕体育日报  咪咕体育日报 第117期 08:00,http://ip-port/964455455
+中国大学生排球联赛 武汉体育学院 vs 西南交通大学 男子组一号场地 08:35,http://ip-port/964919981
+中国大学生排球联赛 武汉体育学院 vs 西南交通大学 男子组一号场地 08:30,http://ip-port/964912133
+中乙 大连英博B队VS泰安天贶 解说 14:50,http://ip-port/964913168
+BWF 陈雨菲、李诗沣、胡哲安晋级四强 高家炫/魏雅欣VS陈堂杰/杜颐沩 17:50,http://ip-port/964920232
+BWF 陈雨菲、李诗沣、胡哲安晋级四强 1号场地 15:00,http://ip-port/964849605
+BWF 陈雨菲、李诗沣、胡哲安晋级四强 1号场地英文解说视角 15:00,http://ip-port/964886182
+WTT 塔卡/玛纳什·沙晋级四强！朱芊曦3-1取胜 凌维康 17:00,http://ip-port/964854467
+WTT 塔卡/玛纳什·沙晋级四强！朱芊曦3-1取胜 2号桌 17:00,http://ip-port/964854382
+斯诺克 巩晨智4-1晋级 李俊威、米尔金斯出战 1号桌 17:00,http://ip-port/964891266
+斯诺克 巩晨智4-1晋级 李俊威、米尔金斯出战 2号桌 17:00,http://ip-port/964891310
+斯诺克 巩晨智4-1晋级 李俊威、米尔金斯出战 3号桌 17:00,http://ip-port/964891339
+斯诺克 巩晨智4-1晋级 李俊威、米尔金斯出战 4号桌 17:00,http://ip-port/964891378
+斯诺克 巩晨智4-1晋级 李俊威、米尔金斯出战 5号桌 17:00,http://ip-port/964891743
+斯诺克 巩晨智4-1晋级 李俊威、米尔金斯出战 6号桌 17:00,http://ip-port/964891761
+NBA经典赛事 NBA季后赛精彩重播：骑士vs尼克斯 G2 庄宁宇 陈正昊 徐咏 18:00,http://ip-port/964868810
+斯诺克 经典重播：2022世锦赛决赛（第二阶段） 经典回顾 18:00,http://ip-port/964914302
+CBA 篮球公园——CBA半决赛激战正酣 篮球公园 18:35,http://ip-port/964928322
+中乙 山东泰山B队VS上海海港B队 解说 18:50,http://ip-port/964913178
+中乙 赣州瑞狮VS深圳二零二八 解说 19:20,http://ip-port/964913250
+中乙 贵州贵阳竞技VS杭州临平吴越 解说 19:20,http://ip-port/964913223
+中乙 湖北青年星VS成都蓉城希拉谷 解说 19:20,http://ip-port/964913212
+中乙 温州俱乐部VS广东铭途 解说 19:20,http://ip-port/964913203
+CBA 北京北汽VS上海久事 图文直播 19:35,http://ip-port/964925039
+WTA 马辛科、卡利尼娜晋级决赛 赛场原声 20:00,http://ip-port/964753841
+WTA 马辛科、卡利尼娜晋级决赛 英文原声 20:00,http://ip-port/964753863
+WTA 姆博科鏖战三盘 纳瓦罗晋级决赛 赛场原声 20:30,http://ip-port/964754473
+WTA 姆博科鏖战三盘 纳瓦罗晋级决赛 英文原声 20:30,http://ip-port/964754488
+WTT 林仲勋拿下关键分横扫 桥本挺进8强 1号桌 23:00,http://ip-port/964854481
+U17亚洲杯 中国U17VS日本U17 张昊泽 王宇 林梦鸽 00:45,http://ip-port/964915366
+U17亚洲杯 中国U17VS日本U17 赛场原声 00:45,http://ip-port/964915338
+意甲 佛罗伦萨VS亚特兰大 石庆圣 02:30,http://ip-port/964916570
+意甲 佛罗伦萨VS亚特兰大 赛场原声 02:30,http://ip-port/964916552
+意甲 佛罗伦萨VS亚特兰大 智能字幕 02:30,http://ip-port/964916629
+NBA 马刺VS雷霆 李天宇 刘家成 张兆旭 08:00,http://ip-port/964862882
+NBA 马刺VS雷霆 王晓晨 08:25,http://ip-port/964862903
+NBA 马刺VS雷霆 英文原声 08:25,http://ip-port/964862961
+NBA 马刺VS雷霆 智能字幕 08:25,http://ip-port/964862969
+咪咕体育日报  咪咕体育日报 第118期 11:30,http://ip-port/964941073
+BWF 陈雨菲、李诗沣晋级决赛 阿里夫/叶睿庆VS伦加德/麦斯 17:10,http://ip-port/964936877
+BWF 陈雨菲、李诗沣晋级决赛 1号场地 12:00,http://ip-port/964849456
+BWF 陈雨菲、李诗沣晋级决赛 1号场地英文解说视角 12:00,http://ip-port/964886187
+春兰杯世界职业围棋锦标赛 世界职业围棋锦标赛第一比赛日 解说 13:00,http://ip-port/964893589
+亚冠女足 日视东京绿茵美人女足VS我故乡女足 吴桐 12:45,http://ip-port/964928016
+亚冠女足 日视东京绿茵美人女足VS我故乡女足 赛场原声 12:45,http://ip-port/964928011
+中国大学生排球联赛 中国大学生排球联赛小组赛第三轮 男子组一号场地 08:35,http://ip-port/964924136
+中国大学生排球联赛 中国大学生排球联赛小组赛第三轮 赛场原声 08:30,http://ip-port/964912353
+乒乓球嘉年华 钱天一、孙闻率上善青浦取开门红 章稀瑄 14:00,http://ip-port/964927407
+乒乓球嘉年华 钱天一、孙闻率上善青浦取开门红 茸城乒将vs宝山国投私募基金 14:00,http://ip-port/964866114
+UFC前瞻与回顾 激战前夜：破圈之王康纳回归特辑 陈瑞阳 14:00,http://ip-port/964888658
+中乙 山西崇德荣海VS长春喜都 解说 14:50,http://ip-port/964913281
+中乙 山西崇德荣海VS长春喜都 AI解说 15:30,http://ip-port/964943141
+齐鲁超赛 聊城传奇农商行VS烟台队 2026赛季山东省齐鲁足球超级联赛第三轮: 聊城传奇农商行VS烟台队 15:00,http://ip-port/964863777
+中乙 青岛红狮VS海门珂缔缘 解说 15:20,http://ip-port/964913313
+中乙 上海赛更达VS北京理工 解说 15:20,http://ip-port/964913298
+贵州村超 党调村贵州村徒队VS党相村塔石羊瘪队 2026赛季贵州村超联赛第四轮: 党调村贵州村徒队VS党相村塔石羊瘪队 16:30,http://ip-port/964894008
+滇超 普洱队VS迪庆队 2026云南省城市足球联赛第十四轮: 普洱队VS迪庆队 16:30,http://ip-port/964917214
+滇超 怒江队VS大理队 2026云南省城市足球联赛第十四轮: 怒江队VS大理队 16:30,http://ip-port/964917208
+滇超 丽江队VS红河队 2026云南省城市足球联赛第十四轮: 丽江队VS红河队 16:30,http://ip-port/964917203
+滇超 西双版纳队VS保山队 2026云南省城市足球联赛第十四轮: 西双版纳队VS保山队 16:30,http://ip-port/964917190
+滇超 文山队VS临沧队 2026云南省城市足球联赛第十四轮: 文山队VS临沧队 16:30,http://ip-port/964917172
+滇超 楚雄队VS德宏队 2026云南省城市足球联赛第十四轮: 楚雄队VS德宏队 16:30,http://ip-port/964917165
+滇超 曲靖队VS昭通队 2026云南省城市足球联赛第十四轮: 曲靖队VS昭通队 16:30,http://ip-port/964917158
+WTT 桥本横扫 塔卡/玛纳什·沙晋级决赛 周冠达 17:00,http://ip-port/964854586
+WTT 桥本横扫 塔卡/玛纳什·沙晋级决赛 1号桌 17:00,http://ip-port/964854551
+斯诺克 职业资格选拔赛 帕如克取胜 2号桌 17:00,http://ip-port/964892571
+斯诺克 职业资格选拔赛 帕如克取胜 1号桌 17:00,http://ip-port/964892553
+斯诺克 职业资格选拔赛 帕如克取胜 3号桌 17:00,http://ip-port/964892578
+斯诺克 职业资格选拔赛 帕如克取胜 4号桌 17:00,http://ip-port/964892596
+斯诺克 职业资格选拔赛 帕如克取胜 5号桌 17:00,http://ip-port/964892614
+斯诺克 职业资格选拔赛 帕如克取胜 6号桌 17:00,http://ip-port/964892622
+疆超 塔城队VS乌鲁木齐队 新疆足球超级联赛第二轮: 塔城vs乌鲁木齐 17:58,http://ip-port/964720989
+疆超 巴州队VS喀什队 新疆足球超级联赛第二轮: 巴州vs喀什 17:58,http://ip-port/964721028
+NBA经典赛事 NBA季后赛精彩重播：雷霆vs马刺 G3 李天宇 刘家成 张兆旭 18:00,http://ip-port/964889126
+斯诺克 重播：2022世锦赛决赛（第三阶段） 第三阶段 18:00,http://ip-port/964915535
+贵州村超 探路者球队VS爱未来榕江公益慈善队 2026赛季贵州村超联赛非遗美食赛: 探路者球队VS爱未来榕江公益慈善队 18:30,http://ip-port/964894017
+齐鲁超赛 潍坊队VS青岛青春 2026赛季山东省齐鲁足球超级联赛第三轮: 潍坊队VS青岛青春 18:40,http://ip-port/964863812
+东北超 长春VS通辽 2026赛季东北地区城市足球联赛第1轮: 长春VS通辽 18:50,http://ip-port/964851763
+东北超 沈阳VS鸡西 2026赛季东北地区城市足球联赛第1轮: 沈阳VS鸡西 18:50,http://ip-port/964851757
+东北超 哈尔滨VS大连 2026赛季东北地区城市足球联赛第1轮: 哈尔滨VS大连 18:50,http://ip-port/964851768
+东北超 呼和浩特VS延边 2026赛季东北地区城市足球联赛第1轮: 呼和哈特VS延边 18:50,http://ip-port/964851776
+蒙超联赛 赤峰队VS包头队 2026赛季内蒙古足球超级联赛小组赛第2轮: 赤峰市vs包头市 18:50,http://ip-port/964852052
+中超 上海海港VS天津津门虎 石庆圣 李彦 18:45,http://ip-port/964888790
+中超 上海海港VS天津津门虎 赛场原声 18:45,http://ip-port/964888812
+中甲 无锡吴钩VS南京城市 解说 18:50,http://ip-port/964911237
+中甲 无锡吴钩VS南京城市 赛场原声 18:50,http://ip-port/964911226
+中甲 宁波职业足球俱乐部VS大连鲲城 解说 18:50,http://ip-port/964911216
+中甲 宁波职业足球俱乐部VS大连鲲城 赛场原声 18:50,http://ip-port/964911204
+闽超 漳州队VS宁德队 2026福建省城市足球超级联赛第五轮: 漳州VS宁德 19:00,http://ip-port/964914536
+闽超 莆田队VS平潭队 2026福建省城市足球超级联赛第五轮: 莆田VS平潭 19:00,http://ip-port/964914579
+闽超 泉州队VS南平队 2026福建省城市足球超级联赛第五轮: 泉州VS南平 19:00,http://ip-port/964914559
+乒乓球嘉年华 赵子豪孙铭阳领衔虹口邮储银行摘首胜 胡朔 19:00,http://ip-port/964927405
+乒乓球嘉年华 赵子豪孙铭阳领衔虹口邮储银行摘首胜 长宁乐动虹桥vs虹口邮储银行 19:00,http://ip-port/964866274
+齐鲁超赛 滨州创新队VS东营队 2026赛季山东省齐鲁足球超级联赛第三轮: 滨州创新队VS东营队 19:00,http://ip-port/964863789
+齐鲁超赛 菏泽队VS日照队 2026赛季山东省齐鲁足球超级联赛第三轮: 菏泽队VS日照队 19:00,http://ip-port/964863797
+齐鲁超赛 威海文旅集团队VS泰安泰山城建队 2026赛季山东省齐鲁足球超级联赛第三轮: 威海文旅集团队队VS泰安泰山城建队 19:00,http://ip-port/964863822
+徽BA 亳州VS蚌埠 2026安徽省城市篮球联赛第四轮: 亳州vs蚌埠 19:00,http://ip-port/964867775
+徽BA 阜阳VS黄山 2026安徽省城市篮球联赛第四轮: 阜阳vs黄山 19:00,http://ip-port/964867797
+徽BA 马鞍山VS合肥 2026安徽省城市篮球联赛第四轮: 马鞍山vs合肥 19:00,http://ip-port/964867804
+徽BA 铜陵VS淮北 2026安徽省城市篮球联赛第四轮: 铜陵vs淮北 19:00,http://ip-port/964867838
+蒙超联赛 鄂尔多斯队VS乌海队 2026赛季内蒙古足球超级联赛小组赛第2轮: 鄂尔多斯市vs乌海市 19:20,http://ip-port/964852072
+楚超 黄石美尔雅队VS宜昌东阳光队 2026赛季湖北省城市足球联赛第五轮: 黄石vs宜昌东阳光 19:25,http://ip-port/964865895
+楚超 随州炎炎队VS鄂州临空队 2026赛季湖北省城市足球联赛第五轮: 随州炎炎vs鄂州临空 19:25,http://ip-port/964865937
+楚超 孝感孝傲江湖队VS仙桃黄鳝队 2026赛季湖北省城市足球联赛第五轮: 孝感孝傲江湖vs仙桃黄鳝 19:25,http://ip-port/964865944
+楚超 荆门金龙泉队VS天门衣尚队 2026赛季湖北省城市足球联赛第五轮: 荆门金龙泉vs天门衣尚 19:25,http://ip-port/964865950
+楚超 武汉华工科技队VS襄阳东风风神队 2026赛季湖北省城市足球联赛第五轮: 武汉华工科技vs襄阳东风风神 19:25,http://ip-port/964865966
+中甲 佛山南狮VS定南赣联 解说 19:20,http://ip-port/964911184
+中甲 佛山南狮VS定南赣联 赛场原声 19:20,http://ip-port/964911166
+中甲 广西恒宸VS南通支云 解说 19:20,http://ip-port/964911144
+中甲 广西恒宸VS南通支云 赛场原声 19:20,http://ip-port/964911129
+中乙 江西庐山VS武汉三镇B队 解说 19:20,http://ip-port/964913341
+粤BA 梅州VS汕头 2026广东省城市篮球联赛第九轮: 梅州vs汕头 19:30,http://ip-port/964087020
+粤BA 汕尾VS深圳 2026广东省城市篮球联赛第九轮: 汕尾vs深圳 19:30,http://ip-port/964087068
+粤BA 东莞VS清远 2026广东省城市篮球联赛第九轮: 东莞vs清远 19:30,http://ip-port/964087111
+粤BA 韶关VS潮州 2026广东省城市篮球联赛第九轮: 韶关vs潮州 19:30,http://ip-port/964087162
+粤BA 河源VS惠州 2026广东省城市篮球联赛第九轮: 河源vs惠州 19:30,http://ip-port/964087417
+粤BA 茂名VS肇庆 2026广东省城市篮球联赛第九轮: 茂名vs肇庆 19:30,http://ip-port/964087456
+粤BA 中山VS珠海 2026广东省城市篮球联赛第九轮: 中山vs珠海 19:30,http://ip-port/964087558
+粤BA 佛山VS云浮 2026广东省城市篮球联赛第九轮: 佛山vs云浮 19:30,http://ip-port/964087583
+粤BA 佛山VS云浮 粤语 19:30,http://ip-port/964927538
+粤BA 江门VS湛江 2026广东省城市篮球联赛第九轮: 江门vs湛江 19:30,http://ip-port/964087618
+粤BA 广州VS阳江 2026广东省城市篮球联赛第九轮: 广州vs阳江 19:30,http://ip-port/964087635
+粤超 惠州VS揭阳 2026赛季广东省城市足球超级联赛第四轮: 惠州VS揭阳 19:30,http://ip-port/964216610
+粤超 惠州VS揭阳 普通话 19:30,http://ip-port/964927902
+粤超 云浮VS湛江 2026赛季广东省城市足球超级联赛第四轮: 云浮VS湛江 19:30,http://ip-port/964216685
+粤超 云浮VS湛江 普通话 19:30,http://ip-port/964928047
+赣超 新余队VS萍乡队 2026赛季江西省城市足球超级联赛常规赛第四轮: 新余VS萍乡 19:30,http://ip-port/964867457
+中超 北京国安VS河南俱乐部彩陶坊 孙雨轩 杨晨 程思钦 19:00,http://ip-port/964888886
+中超 北京国安VS河南俱乐部彩陶坊 乔迁 19:20,http://ip-port/964888904
+中超 北京国安VS河南俱乐部彩陶坊 4K赛场原声 19:20,http://ip-port/964888929
+川超 绵阳九洲长虹队VS达州川汉子队 2026赛季四川省城市足球联赛第12轮：绵阳九洲长虹队vs达州川汉子队 18:35,http://ip-port/963424553
+川超 成都锦城队VS德阳重装队 2026赛季四川省城市足球联赛第12轮：成都锦城队vs德阳重装队 18:35,http://ip-port/963424570
+川超 乐山味道非常队VS南充丝绸源点队 2026赛季四川省城市足球联赛第12轮：乐山味道非常队vs南充丝绸源点队 18:35,http://ip-port/963424583
+川超 凉山好医生队VS自贡灯城燊龙队 2026赛季四川省城市足球联赛第12轮：凉山好医生队vs自贡灯城燊龙队 18:35,http://ip-port/963424613
+CBA 深圳马可波罗VS浙江浙商证券 图文直播 19:35,http://ip-port/964925051
+苏超 淮安队VS盐城队 官方解说 19:10,http://ip-port/964755377
+苏超 连云港队VS徐州队 官方解说 19:10,http://ip-port/964755405
+苏超 宿迁队VS南通队 官方解说 19:10,http://ip-port/964755447
+粤超 深圳VS东莞 2026赛季广东省城市足球超级联赛第四轮: 深圳VS东莞 20:00,http://ip-port/964216664
+粤超 深圳VS东莞 普通话 20:00,http://ip-port/964928010
+粤超 佛山VS肇庆 2026赛季广东省城市足球超级联赛第四轮: 佛山VS肇庆 20:00,http://ip-port/964216713
+粤超 佛山VS肇庆 普通话 20:00,http://ip-port/964928107
+WTA 卡利尼娜VS马辛科 赛场原声 20:00,http://ip-port/964753876
+WTA 卡利尼娜VS马辛科 英文原声 20:00,http://ip-port/964753899
+WTA 姆博科VS纳瓦罗 赛场原声 20:00,http://ip-port/964754502
+WTA 姆博科VS纳瓦罗 英文原声 20:00,http://ip-port/964754510
+WTA 姆博科VS纳瓦罗 房朕 20:00,http://ip-port/964940281
+贵州村超 平永村足球队VS安乐村足球队 2026赛季贵州村超联赛第四轮: 平永村VS安乐村 20:40,http://ip-port/964894026
+疆超 伊犁队VS昌吉队 新疆足球超级联赛第二轮: 伊犁vs昌吉 20:58,http://ip-port/964721015
+WTT 朱芊曦PK桥本 玛纳什·沙/奇塔莱冲冠 凌维康 23:00,http://ip-port/964854610
+WTT 朱芊曦PK桥本 玛纳什·沙/奇塔莱冲冠 赛场原声 23:00,http://ip-port/964854599
+意甲 博洛尼亚VS国际米兰 刘腾 贺宇 23:30,http://ip-port/964916500
+意甲 博洛尼亚VS国际米兰 赛场原声 23:45,http://ip-port/964916487
+意甲 博洛尼亚VS国际米兰 智能字幕 23:30,http://ip-port/964916522
+意甲 博洛尼亚VS国际米兰 AR信号 23:45,http://ip-port/964928048
+PFL PFL布鲁塞尔站：哈比罗拉VS亨德森 王琰博 00:30,http://ip-port/964888749
+PFL PFL布鲁塞尔站：哈比罗拉VS亨德森 英文原声 00:30,http://ip-port/964889243
+意甲 拉齐奥VS比萨 吴奕博 02:30,http://ip-port/964916462
+意甲 拉齐奥VS比萨 赛场原声 02:30,http://ip-port/964916453
+西甲 瓦伦西亚VS巴塞罗那 张昊泽 李欣 02:40,http://ip-port/964916768
+西甲 瓦伦西亚VS巴塞罗那 赛场原声 02:45,http://ip-port/964916750
+西甲 瓦伦西亚VS巴塞罗那 智能字幕 02:45,http://ip-port/964916827
+西甲 皇家马德里VS毕尔巴鄂竞技 刘畅 孙雷 02:45,http://ip-port/964916623
+西甲 皇家马德里VS毕尔巴鄂竞技 赛场原声 02:45,http://ip-port/964916984
+西甲 皇家马德里VS毕尔巴鄂竞技 智能字幕 02:45,http://ip-port/964916989
+西甲 赫塔菲VS奥萨苏纳 张天翼 02:45,http://ip-port/964916890
+西甲 赫塔菲VS奥萨苏纳 赛场原声 02:45,http://ip-port/964916871
+西甲 西班牙人VS皇家社会 周楚雄 02:45,http://ip-port/964916909
+西甲 西班牙人VS皇家社会 赛场原声 02:45,http://ip-port/964916906
+西甲 塞尔塔VS塞维利亚 李霄 02:45,http://ip-port/964916862
+西甲 塞尔塔VS塞维利亚 赛场原声 02:45,http://ip-port/964916857
+西甲 阿拉维斯VS巴列卡诺 洪宇青 02:45,http://ip-port/964916715
+西甲 阿拉维斯VS巴列卡诺 赛场原声 02:45,http://ip-port/964916710
+西甲 吉罗纳VS埃尔切 梁祥宇 02:45,http://ip-port/964916707
+西甲 吉罗纳VS埃尔切 赛场原声 02:45,http://ip-port/964916698
+西甲 马略卡VS皇家奥维耶多 鹿中原 02:45,http://ip-port/964916940
+西甲 马略卡VS皇家奥维耶多 赛场原声 02:45,http://ip-port/964916928
+西甲 皇家贝蒂斯VS莱万特 兰子非 02:45,http://ip-port/964916839
+西甲 皇家贝蒂斯VS莱万特 赛场原声 02:45,http://ip-port/964916824
+马拉松系列赛 2026兰州马拉松 兰州马拉松 06:45,http://ip-port/964913048
+马拉松系列赛 2026一心堂弥勒半程马拉松 弥勒半程马拉松 07:15,http://ip-port/964916075
+NBA 骑士VS尼克斯 姜帆 闫宇峰 季孟年 07:30,http://ip-port/964946193
+NBA 骑士VS尼克斯 莫俊祺 07:55,http://ip-port/964946199
+NBA 骑士VS尼克斯 洪荒 07:55,http://ip-port/964946204
+NBA 骑士VS尼克斯 英文原声 07:55,http://ip-port/964946223
+NBA 骑士VS尼克斯 智能字幕 07:55,http://ip-port/964946231
+咪咕体育日报  咪咕体育日报 第119期 08:00,http://ip-port/964853196
+中国大学生排球联赛 火力全开！小组赛第四轮 男子组一号场地 08:35,http://ip-port/964924741
+中国大学生排球联赛 火力全开！小组赛第四轮 男子组二号场地 08:35,http://ip-port/964924219
+中国大学生排球联赛 火力全开！小组赛第四轮 女子组一号场地 08:35,http://ip-port/964924224
+中国大学生排球联赛 火力全开！小组赛第四轮 女子组二号场地 08:35,http://ip-port/964924238
+中国大学生排球联赛 火力全开！小组赛第四轮 男子组一号场地 08:30,http://ip-port/964912643
+中国大学生排球联赛 火力全开！小组赛第四轮 男子组二号场地 08:30,http://ip-port/964912654
+中国大学生排球联赛 火力全开！小组赛第四轮 女子组一号场地 08:30,http://ip-port/964912689
+中国大学生排球联赛 火力全开！小组赛第四轮 女子组二号场地 08:30,http://ip-port/964912699
+BWF 国羽力争四金！陈雨菲PK因达农 1号场地 12:00,http://ip-port/964849436
+BWF 国羽力争四金！陈雨菲PK因达农 1号场地英文解说视角 12:00,http://ip-port/964886208
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 石楚阳 14:00,http://ip-port/964866601
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 凌维康 14:00,http://ip-port/964866635
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 王睿涓 14:00,http://ip-port/964909460
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 张铭哲 14:00,http://ip-port/964927384
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 胡朔 14:00,http://ip-port/964927391
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 嘉定统嘉集团vs茸城乒将 14:00,http://ip-port/964866444
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 虹口邮储银行vs崇明乘风破浪队 14:00,http://ip-port/964866480
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 静安中安弘vs奉贤经发 14:00,http://ip-port/964866538
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 普陀淘宝闪购vs徐汇愚公科技 14:00,http://ip-port/964866562
+乒乓球嘉年华 孙闻、钱天一率上善青浦冲连胜 金山物流汇喆宇vs上善青浦 14:00,http://ip-port/964866609
+贵州村超 大利村VS忠诚村足球队 2026赛季贵州村超联赛第四轮: 大利村侗寨队VS忠诚村 14:20,http://ip-port/964894034
+中甲 长春亚泰VS深圳青年人 解说 15:20,http://ip-port/964911115
+中甲 长春亚泰VS深圳青年人 赛场原声 15:20,http://ip-port/964911101
+蒙超联赛 乌兰察布队VS呼伦贝尔队 2026赛季内蒙古足球超级联赛小组赛第2轮: 乌兰察布市vs呼伦贝尔市 15:50,http://ip-port/964852077
+蒙超联赛 锡林郭勒队VS呼和浩特队 2026赛季内蒙古足球超级联赛小组赛第2轮: 锡林郭勒盟vs呼和浩特市 15:50,http://ip-port/964852101
+齐鲁超赛 临沂队VS济宁港航 2026赛季山东省齐鲁足球超级联赛第三轮: 临沂队VS济宁港航 16:00,http://ip-port/964863837
+贵州村超 场坝大河口将军岩队VS仁吉村村牛足球队 2026赛季贵州村超联赛第四轮: 党相村塔石羊瘪队VS党调村贵州村徒队 16:30,http://ip-port/964894059
+中超 青岛海牛VS重庆铜梁龙 袁甲 李毅 16:45,http://ip-port/964889101
+中超 青岛海牛VS重庆铜梁龙 赛场原声 16:45,http://ip-port/964889113
+斯诺克 第四轮、第五轮 1号桌 17:00,http://ip-port/964891453
+斯诺克 第四轮、第五轮 2号桌 17:00,http://ip-port/964891483
+斯诺克 第四轮、第五轮 3号桌 17:00,http://ip-port/964891518
+斯诺克 第四轮、第五轮 4号桌 17:00,http://ip-port/964891556
+斯诺克 第四轮、第五轮 5号桌 17:00,http://ip-port/964891594
+斯诺克 第四轮、第五轮 6号桌 17:00,http://ip-port/964891621
+斯诺克 经典回放：2022世锦赛决赛（第四阶段） 第四阶段 18:00,http://ip-port/964915461
+疆超 和田队VS克州队 新疆足球超级联赛第二轮: 和田vs克州 18:30,http://ip-port/964721047
+贵州村超 高硐村足球队VS寿洞村足球队 2026赛季贵州村超联赛第四轮: 高硐村VS寿洞村 18:30,http://ip-port/964894063
+中超 云南玉昆VS青岛西海岸 刘腾 张辛昕 18:45,http://ip-port/964889137
+中超 云南玉昆VS青岛西海岸 赛场原声 18:45,http://ip-port/964889145
+中甲 苏州东吴VS陕西联合 解说 18:50,http://ip-port/964911086
+中甲 苏州东吴VS陕西联合 赛场原声 18:50,http://ip-port/964911069
+闽超 厦门队VS三明队 2026福建省城市足球超级联赛第五轮: 厦门VS三明 19:00,http://ip-port/964914576
+疆超 克拉玛依队VS博州队 新疆足球超级联赛第二轮: 克拉玛依vs博州 19:00,http://ip-port/964721040
+疆超 阿克苏队VS吐鲁番队 新疆足球超级联赛第二轮: 阿克苏vs吐鲁番 19:00,http://ip-port/964721056
+乒乓球嘉年华 习胜、孙艺祯领衔闵行沿浦出战 刘馨蕊 19:00,http://ip-port/964866793
+乒乓球嘉年华 习胜、孙艺祯领衔闵行沿浦出战 赵曦 19:00,http://ip-port/964909352
+乒乓球嘉年华 习胜、孙艺祯领衔闵行沿浦出战 陈希 19:00,http://ip-port/964909380
+乒乓球嘉年华 习胜、孙艺祯领衔闵行沿浦出战 宝山国投私募基金vs黄浦南房 19:00,http://ip-port/964866685
+乒乓球嘉年华 习胜、孙艺祯领衔闵行沿浦出战 浦东引领vs长宁乐动虹桥 19:00,http://ip-port/964866714
+乒乓球嘉年华 习胜、孙艺祯领衔闵行沿浦出战 闵行沿浦vs杨浦回力 19:00,http://ip-port/964866746
+徽BA 池州VS淮南 2026安徽省城市篮球联赛第四轮: 池州vs淮南 19:00,http://ip-port/964867859
+徽BA 六安VS滁州 2026安徽省城市篮球联赛第四轮: 六安vs滁州 19:00,http://ip-port/964867866
+徽BA 宿州VS安庆 2026安徽省城市篮球联赛第四轮: 宿州vs安庆 19:00,http://ip-port/964867896
+徽BA 宣城VS芜湖 2026安徽省城市篮球联赛第四轮: 宣城vs芜湖 19:00,http://ip-port/964867932
+吴越杯 舟山队VS湖州队 2026赛季浙江省城市足球联赛第十一轮: 舟山VS湖州 19:15,http://ip-port/964854695
+吴越杯 温州队VS嘉兴队 2026赛季浙江省城市足球联赛第十一轮: 温州VS嘉兴 19:15,http://ip-port/964854712
+吴越杯 台州队VS绍兴队 2026赛季浙江省城市足球联赛第十一轮: 台州VS绍兴 19:15,http://ip-port/964854719
+吴越杯 宁波队VS衢州队 2026赛季浙江省城市足球联赛第十一轮: 宁波VS衢州 19:15,http://ip-port/964854731
+吴越杯 金华队VS丽水队 2026赛季浙江省城市足球联赛第十一轮: 金华VS丽水 19:15,http://ip-port/964854763
+中甲 石家庄功夫VS梅州客家 解说 19:20,http://ip-port/964911055
+中甲 石家庄功夫VS梅州客家 赛场原声 19:20,http://ip-port/964911031
+中甲 广东广州豹足球俱乐部VS延边龙鼎 解说 19:20,http://ip-port/964911012
+中甲 广东广州豹足球俱乐部VS延边龙鼎 赛场原声 19:20,http://ip-port/964911006
+粤超 汕头VS河源 2026赛季广东省城市足球超级联赛第四轮: 汕头VS河源 19:30,http://ip-port/964216754
+粤超 汕头VS河源 普通话+潮汕话 19:30,http://ip-port/964928128
+粤超 江门VS茂名 2026赛季广东省城市足球超级联赛第四轮: 江门VS茂名 19:30,http://ip-port/964216774
+粤超 江门VS茂名 粤语 19:30,http://ip-port/964928130
+粤超 韶关VS汕尾 2026赛季广东省城市足球超级联赛第四轮: 韶关VS汕尾 19:30,http://ip-port/964216791
+粤超 韶关VS汕尾 客家话+潮汕话 19:30,http://ip-port/964928203
+粤超 中山VS珠海 2026赛季广东省城市足球超级联赛第四轮: 中山VS珠海 19:30,http://ip-port/964216818
+粤超 中山VS珠海 粤语 19:30,http://ip-port/964928213
+粤超 阳江VS广州 2026赛季广东省城市足球超级联赛第四轮: 阳江VS广州 19:30,http://ip-port/964216837
+粤超 阳江VS广州 粤语 19:30,http://ip-port/964928256
+齐鲁超赛 枣庄丰源轮胎队VS德州古贝春 2026赛季山东省齐鲁足球超级联赛第三轮: 枣庄丰源轮胎队VS德州古贝春 19:30,http://ip-port/964863866
+赣超 抚州队VS南昌队 2026赛季江西省城市足球超级联赛常规赛第四轮: 抚州VS南昌 19:30,http://ip-port/964867471
+中超 浙江俱乐部绿城VS辽宁铁人楠波湾 鲁靖明 王伟 19:20,http://ip-port/964889184
+中超 浙江俱乐部绿城VS辽宁铁人楠波湾 赛场原声 19:20,http://ip-port/964889190
+中超 山东泰山VS武汉三镇 李欣 徐云龙 林梦鸽 19:00,http://ip-port/964889167
+中超 山东泰山VS武汉三镇 赛场原声 19:20,http://ip-port/964889172
+中超 上海申花VS深圳新鹏城 娄一晨 刘越 孙蕊 19:30,http://ip-port/964889215
+中超 上海申花VS深圳新鹏城 赛场原声 19:45,http://ip-port/964889228
+贵州村超 小堡村足球队VS富民村足球队 2026赛季贵州村超联赛第四轮: 小堡村VS富民村 20:30,http://ip-port/964894075
+意甲 帕尔马VS萨索洛 谭逸雄 20:45,http://ip-port/964916421
+意甲 帕尔马VS萨索洛 赛场原声 20:45,http://ip-port/964916400
+WTT 男女双打决赛、男女单打决赛 周冠达 22:00,http://ip-port/964854641
+WTT 男女双打决赛、男女单打决赛 赛场原声 22:00,http://ip-port/964854635
+英超 西汉姆联VS利兹联 苗锟 22:45,http://ip-port/964916692
+英超 西汉姆联VS利兹联 英文原声 22:45,http://ip-port/964916664
+英超 西汉姆联VS利兹联 赛场原声 22:45,http://ip-port/964916657
+英超 托特纳姆热刺VS埃弗顿 娄一晨 刘越 邵凌霄 21:30,http://ip-port/964916701
+英超 托特纳姆热刺VS埃弗顿 叶紫辰 陆毅隽 陈曦 22:50,http://ip-port/964916965
+英超 托特纳姆热刺VS埃弗顿 英文原声 22:45,http://ip-port/964916635
+英超 托特纳姆热刺VS埃弗顿 赛场原声 22:45,http://ip-port/964916625
+英超 桑德兰VS切尔西 吴桐 22:45,http://ip-port/964916538
+英超 桑德兰VS切尔西 英文原声 22:45,http://ip-port/964916530
+英超 桑德兰VS切尔西 赛场原声 22:45,http://ip-port/964916524
+英超 诺丁汉森林VS伯恩茅斯 刘焕 22:45,http://ip-port/964916483
+英超 诺丁汉森林VS伯恩茅斯 英文原声 22:45,http://ip-port/964916471
+英超 诺丁汉森林VS伯恩茅斯 赛场原声 22:45,http://ip-port/964916459
+英超 曼城VS阿斯顿维拉 涂远 李彦 姚安妮 21:30,http://ip-port/964916451
+英超 曼城VS阿斯顿维拉 英文原声 22:45,http://ip-port/964916434
+英超 曼城VS阿斯顿维拉 赛场原声 22:45,http://ip-port/964916420
+英超 利物浦VS布伦特福德 刘畅 颜强 程思钦 21:30,http://ip-port/964916372
+英超 利物浦VS布伦特福德 英文原声 22:45,http://ip-port/964916357
+英超 利物浦VS布伦特福德 赛场原声 22:45,http://ip-port/964916354
+英超 利物浦VS布伦特福德 智能字幕 21:30,http://ip-port/964916379
+英超 富勒姆VS纽卡斯尔联 黄航 22:45,http://ip-port/964916714
+英超 富勒姆VS纽卡斯尔联 英文原声 22:45,http://ip-port/964916723
+英超 富勒姆VS纽卡斯尔联 赛场原声 22:45,http://ip-port/964916743
+英超 水晶宫VS阿森纳 詹俊 张路 李子琪 21:30,http://ip-port/964916545
+英超 水晶宫VS阿森纳 陈凯冬 何辉 陈熙荣 22:50,http://ip-port/964916958
+英超 水晶宫VS阿森纳 英文原声 22:45,http://ip-port/964916583
+英超 水晶宫VS阿森纳 赛场原声 22:45,http://ip-port/964916601
+英超 水晶宫VS阿森纳 智能字幕 沪语 22:45,http://ip-port/964916705
+英超 水晶宫VS阿森纳 智能字幕  闽南语 22:45,http://ip-port/964916977
+英超 伯恩利VS狼队 张天翼 22:45,http://ip-port/964916495
+英超 伯恩利VS狼队 英文原声 22:45,http://ip-port/964916516
+英超 伯恩利VS狼队 赛场原声 22:45,http://ip-port/964916527
+英超 布莱顿VS曼联 苏东 徐阳 郭小仙儿 21:30,http://ip-port/964916362
+英超 布莱顿VS曼联 英文原声 22:45,http://ip-port/964916449
+英超 布莱顿VS曼联 赛场原声 22:45,http://ip-port/964916457
+英超 布莱顿VS曼联 智能字幕 21:30,http://ip-port/964916481
+
+自定义频道,#genre#
+山东齐鲁,http://ip-port/sd.php?id=qlpd
+山东新闻,http://ip-port/sd.php?id=xwpd
+山东体育休闲,http://ip-port/sd.php?id=tyxx
+山东生活,http://ip-port/sd.php?id=shpd
+山东综艺,http://ip-port/sd.php?id=zypd
+山东农科,http://ip-port/sd.php?id=nkpd
+山东文旅,http://ip-port/sd.php?id=wlpd
+山东少儿,http://ip-port/sd.php?id=sepd
+山东教育卫视,http://ip-port/sd.php?id=sdjy
+山东居家购物,http://ip-port/sd.php?id=sdjjgw
+济南新闻综合频道,http://ip-port/sd.php?id=1676
+济南都市频道,http://ip-port/sd.php?id=1807
+济南文旅体育频道,http://ip-port/sd.php?id=1842
+济南生活频道,http://ip-port/sd.php?id=1855
+济南少儿频道,http://ip-port/sd.php?id=2234
+济南鲁中频道,http://ip-port/sd.php?id=1857
+长清新闻,http://ip-port/sd.php?id=jncqxw
+长清生活,http://ip-port/sd.php?id=jncqsh
+济铁电视台,http://ip-port/sd.php?id=jnjrtv
+济阳综合,http://ip-port/sd.php?id=jnjyzh
+济阳影视,http://ip-port/sd.php?id=jnjyys
+平阴综合,http://ip-port/sd.php?id=jnpyzh
+平阴乡村振兴,http://ip-port/sd.php?id=jnpyxc
+商河综合,http://ip-port/sd.php?id=jnshzh
+商河影视,http://ip-port/sd.php?id=jnshys
+章丘综合,http://ip-port/sd.php?id=jnzqzh
+章丘公共,http://ip-port/sd.php?id=jnzqgg
+东营新闻综合,http://ip-port/sd.php?id=dyxwzh
+东营公共,http://ip-port/sd.php?id=dygg
+东营科教,http://ip-port/sd.php?id=dykj
+东营区新闻综合,http://ip-port/sd.php?id=dydyqxw
+东营区科教影视,http://ip-port/sd.php?id=dydyqkj
+广饶综合,http://ip-port/sd.php?id=dygrzh
+广饶科教文艺,http://ip-port/sd.php?id=dygrkj
+利津综合,http://ip-port/sd.php?id=dyljzh
+利津文化生活,http://ip-port/sd.php?id=dyljwh
+城阳综合,http://ip-port/sd.php?id=qdcyzh
+黄岛综合,http://ip-port/sd.php?id=qdhdzh
+黄岛生活,http://ip-port/sd.php?id=qdhdsh
+即墨综合,http://ip-port/sd.php?id=qdjmzh
+即墨生活服务,http://ip-port/sd.php?id=qdjmsh
+胶州综合,http://ip-port/sd.php?id=qdjzzh
+胶州生活,http://ip-port/sd.php?id=qdjzsh
+李沧TV,http://ip-port/sd.php?id=qdlc
+崂山TV,http://ip-port/sd.php?id=qdls
+莱西综合,http://ip-port/sd.php?id=qdlxzh
+莱西生活,http://ip-port/sd.php?id=qdlxsh
+平度新闻综合,http://ip-port/sd.php?id=qdpdxw
+平度生活服务,http://ip-port/sd.php?id=qdpdsh
+潍坊新闻综合,http://ip-port/sd.php?id=wfxwzh
+潍坊经济生活,http://ip-port/sd.php?id=wfsh
+潍坊公共频道,http://ip-port/sd.php?id=wfyswy
+潍坊科教文化,http://ip-port/sd.php?id=wfkjwl
+潍坊高新区,http://ip-port/sd.php?id=wfgxq
+安丘综合,http://ip-port/sd.php?id=wfaqzh
+安丘民生,http://ip-port/sd.php?id=wfaqms
+滨海新闻综合,http://ip-port/sd.php?id=wfbhxw
+昌乐综合,http://ip-port/sd.php?id=wfclzh
+高密综合,http://ip-port/sd.php?id=wfgmzh
+高密党建农科,http://ip-port/sd.php?id=wfgmdj
+寿光综合频道,http://ip-port/sd.php?id=wfsgxw
+寿光蔬菜频道,http://ip-port/sd.php?id=wfsgsc
+临朐新闻综合,http://ip-port/sd.php?id=wflqxw
+青州综合,http://ip-port/sd.php?id=wfqzzh
+青州文化旅游,http://ip-port/sd.php?id=wfqzwh
+潍城TV,http://ip-port/sd.php?id=wfwc
+长岛TV,http://ip-port/sd.php?id=ytcd
+福山综合,http://ip-port/sd.php?id=ytfszh
+海阳综合,http://ip-port/sd.php?id=ythyzh
+龙口综合,http://ip-port/sd.php?id=ytlkzh
+龙口生活,http://ip-port/sd.php?id=ytlksh
+莱山综合,http://ip-port/sd.php?id=ytlszh
+莱山影视,http://ip-port/sd.php?id=ytlsys
+莱阳综合,http://ip-port/sd.php?id=ytlyzh
+莱阳民生综艺,http://ip-port/sd.php?id=ytlyms
+莱州综合,http://ip-port/sd.php?id=ytlzzh
+牟平综合,http://ip-port/sd.php?id=ytmpzh
+栖霞综合,http://ip-port/sd.php?id=ytqxzh
+栖霞苹果,http://ip-port/sd.php?id=ytqxpg
+烟台新闻综合,http://ip-port/sd.php?id=ytxwzh
+烟台公共频道,http://ip-port/sd.php?id=ytggpd
+博山新闻,http://ip-port/sd.php?id=zbbsxw
+博山图文,http://ip-port/sd.php?id=zbbstw
+高青综合,http://ip-port/sd.php?id=zbgqzh
+高青影视,http://ip-port/sd.php?id=zbgqys
+桓台综合,http://ip-port/sd.php?id=zbht1
+桓台影视,http://ip-port/sd.php?id=zbht2
+临淄新闻综合,http://ip-port/sd.php?id=zblzxw
+临淄生活服务,http://ip-port/sd.php?id=zblzsh
+沂源综合,http://ip-port/sd.php?id=zbyyzh
+沂源生活,http://ip-port/sd.php?id=zbyysh
+淄川新闻,http://ip-port/sd.php?id=zbzcxw
+淄川生活,http://ip-port/sd.php?id=zbzcsh
+张店综合,http://ip-port/sd.php?id=zbzd1
+周村新闻,http://ip-port/sd.php?id=zbzctv1
+周村生活,http://ip-port/sd.php?id=zbzctv2
+山亭综合,http://ip-port/sd.php?id=zzstzh
+枣庄市中综合,http://ip-port/sd.php?id=zzszzh
+台儿庄新闻综合,http://ip-port/sd.php?id=zztezxw
+薛城新闻综合,http://ip-port/sd.php?id=zzxcxw
+峄城综合,http://ip-port/sd.php?id=zzyczh
+无棣综合,http://ip-port/sd.php?id=bzwdzh
+无棣综艺,http://ip-port/sd.php?id=bzwdzy
+德州新闻综合,http://ip-port/sd.php?id=dzxwzh
+德州经济生活,http://ip-port/sd.php?id=dzjjsh
+德州图文,http://ip-port/sd.php?id=dztw
+乐陵新闻综合,http://ip-port/sd.php?id=dzllxw
+乐陵城市生活,http://ip-port/sd.php?id=dzllcs
+临邑1,http://ip-port/sd.php?id=dzly1
+庆云综合,http://ip-port/sd.php?id=dzqyzh
+庆云生活,http://ip-port/sd.php?id=dzqysh
+武城综合,http://ip-port/sd.php?id=dzwczh
+武城综艺影视,http://ip-port/sd.php?id=dzwczy
+夏津综合,http://ip-port/sd.php?id=dzxjzh
+夏津公共,http://ip-port/sd.php?id=dzxjgg
+成武综合,http://ip-port/sd.php?id=hzcwzh
+成武综艺,http://ip-port/sd.php?id=hzcwzy
+曹县综合,http://ip-port/sd.php?id=hzcxzh
+定陶新闻,http://ip-port/sd.php?id=hzdt1
+定陶综艺,http://ip-port/sd.php?id=hzdt2
+鄄城综合,http://ip-port/sd.php?id=hzjczh
+菏泽1套新闻频道,http://ip-port/sd.php?id=hz1xw
+菏泽2套经济频道,http://ip-port/sd.php?id=hz2jj
+梁山综合,http://ip-port/sd.php?id=jilszh
+曲阜新闻综合,http://ip-port/sd.php?id=jiqfxw
+任城新闻综合,http://ip-port/sd.php?id=jircxw
+任城影视娱乐,http://ip-port/sd.php?id=jircys
+泗水新闻综合,http://ip-port/sd.php?id=jissxw
+泗水文化生活,http://ip-port/sd.php?id=jisswh
+汶上综合,http://ip-port/sd.php?id=jiwszh
+鱼台新闻,http://ip-port/sd.php?id=jiytxw
+鱼台生活,http://ip-port/sd.php?id=jiytsh
+兖州新闻,http://ip-port/sd.php?id=jiyzxw
+兖州生活,http://ip-port/sd.php?id=jiyzsh
+邹城综合,http://ip-port/sd.php?id=jizczh
+邹城文化生活,http://ip-port/sd.php?id=jizcwh
+东昌综合,http://ip-port/sd.php?id=lcdczh
+东阿综合,http://ip-port/sd.php?id=lcdezh
+东阿综艺,http://ip-port/sd.php?id=lcdezy
+冠县综合,http://ip-port/sd.php?id=lcgxzh
+临清综合,http://ip-port/sd.php?id=lclqzh
+临清经济信息,http://ip-port/sd.php?id=lclqjj
+莘县综合,http://ip-port/sd.php?id=lcsxzh
+莘县生活,http://ip-port/sd.php?id=lcsxsh
+阳谷综合,http://ip-port/sd.php?id=lcygzh
+阳谷影视,http://ip-port/sd.php?id=lcygys
+莒南综合,http://ip-port/sd.php?id=lyjnzh
+兰陵综合,http://ip-port/sd.php?id=lyllzh
+兰陵公共,http://ip-port/sd.php?id=lyllgg
+临沭综合,http://ip-port/sd.php?id=lyls1
+临沭生活,http://ip-port/sd.php?id=lyls2
+罗庄综合,http://ip-port/sd.php?id=lylzzh
+罗庄影视,http://ip-port/sd.php?id=lylzys
+蒙阴综合,http://ip-port/sd.php?id=lymy1
+蒙阴2套,http://ip-port/sd.php?id=lymy2
+平邑综合,http://ip-port/sd.php?id=lypyzh
+郯城综合,http://ip-port/sd.php?id=lytc1
+郯城2套,http://ip-port/sd.php?id=lytc2
+沂南综合,http://ip-port/sd.php?id=lyynzh
+沂南红色影视,http://ip-port/sd.php?id=lyynys
+沂水综合,http://ip-port/sd.php?id=lyys1
+沂水生活,http://ip-port/sd.php?id=lyys2
+日照新闻综合频道,http://ip-port/sd.php?id=rzdst
+日照电视科教频道,http://ip-port/sd.php?id=rz_12
+日照电视公共频道,http://ip-port/sd.php?id=rz_13
+莒县综合,http://ip-port/sd.php?id=rzjx1
+莒县2套,http://ip-port/sd.php?id=rzjx2
+五莲综合,http://ip-port/sd.php?id=rzwlzh
+五莲文化旅游,http://ip-port/sd.php?id=rzwlwh
+东平综合,http://ip-port/sd.php?id=tadpzh
+东平民生,http://ip-port/sd.php?id=tadpms
+岱岳TV,http://ip-port/sd.php?id=tady
+肥城综合,http://ip-port/sd.php?id=tafczh
+肥城生活,http://ip-port/sd.php?id=tafcsh
+宁阳综合,http://ip-port/sd.php?id=tany1
+宁阳2套,http://ip-port/sd.php?id=tany2
+泰山TV,http://ip-port/sd.php?id=tats
+新泰综合,http://ip-port/sd.php?id=taxtzh
+新泰乡村,http://ip-port/sd.php?id=taxtxc
+
