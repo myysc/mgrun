@@ -8,64 +8,66 @@ on:
 permissions:
   contents: write
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   proxy-ip:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
         ref: main
-        
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-        
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests
-        
+
     - name: 清理旧数据 🗑️
       run: |
-        # 删除migu目录中的所有文件
+        # 删除 mymg 目录中的所有文件（保留目录本身）
         if [ -d "${{ github.workspace }}/mymg" ]; then
           rm -rf ${{ github.workspace }}/mymg/*
-          echo "已清理mymg目录"
+          echo "已清理 mymg 目录"
         fi
-        
+
     - name: Create necessary directories
       run: |
+        # 修复：同时创建 py 目录，供复制脚本使用
         mkdir -p ${{ github.workspace }}/mymg
-        
+        mkdir -p ${{ github.workspace }}/py
+
     - name: 从私库复制文件
       run: |
+        set -e
         # 克隆私库到临时目录
-        git clone https://${{ secrets.REPOMGTV }}@github.com/myysc/mgtv.git /tmp/private-repo
-        
+        git clone https://x-access-token:${{ secrets.REPOMGTV }}@github.com/myysc/mgtv.git /tmp/private-repo
+
         # 复制 my_mg.py 文件
         if [ -f "/tmp/private-repo/py/my_mg.py" ]; then
-          echo "复制 migu_scan.py 文件..."
+          echo "复制 my_mg.py 文件..."
           cp /tmp/private-repo/py/my_mg.py ${{ github.workspace }}/py/
           echo "my_mg.py 已复制"
         else
-          echo "警告: /tmp/private-repo/py/my_mg.py 不存在"
+          echo "错误: /tmp/private-repo/py/my_mg.py 不存在"
+          rm -rf /tmp/private-repo
+          exit 1
         fi
-        
+
         # 清理临时目录
         rm -rf /tmp/private-repo
         echo "私库文件复制完成"
-        
+
     - name: Run scanner
       run: |
         python py/my_mg.py
-        
+
     - name: 推送文件到私库
       run: |
         # 检查是否有生成的文件需要推送
@@ -73,30 +75,29 @@ jobs:
           echo "警告: 没有生成任何文件，跳过推送"
           exit 0
         fi
-        
+
         echo "开始推送文件到私库..."
-        
+
         # 克隆私库到临时目录
-        git clone https://${{ secrets.REPOMGTV }}@github.com/myysc/mgtv.git /tmp/push-repo
-        
+        git clone https://x-access-token:${{ secrets.REPOMGTV }}@github.com/myysc/mgtv.git /tmp/push-repo
+
         # 进入私库目录
         cd /tmp/push-repo
-        
+
         # 配置 git 用户信息
         git config user.name "github-actions"
         git config user.email "github-actions@users.noreply.github.com"
-        
-        # 【新增】清空私库中的 mymg 目录所有文件，但保留目录结构
+
+        # 清空私库中的 mymg 目录所有文件，但保留目录结构
         if [ -d "/tmp/push-repo/mymg" ]; then
           echo "正在清空私库中的 mymg 目录..."
-          # 删除 mymg 目录下的所有内容，但保留 migu 目录本身
           rm -rf /tmp/push-repo/mymg/*
           echo "mymg 目录已清空"
         else
           echo "mymg 目录不存在，将创建新目录"
           mkdir -p /tmp/push-repo/mymg
         fi
-        
+
         # 复制生成的文件（mymg 目录）
         if [ -d "${{ github.workspace }}/mymg" ] && [ -n "$(ls -A ${{ github.workspace }}/mymg 2>/dev/null)" ]; then
           echo "复制 mymg 文件到私库..."
@@ -105,34 +106,32 @@ jobs:
         else
           echo "没有 mymg 文件需要复制"
         fi
-        
+
         echo "文件已复制到私库，准备提交..."
-        
+
         # 添加文件到暂存区
         git add mymg/
-        
+
         # 检查是否有变更需要提交
         if git diff --cached --quiet; then
           echo "没有变更需要提交"
         else
-          # 提交变更
           git commit -m "mymg更新 proxy IP $(date '+%Y-%m-%d %H:%M:%S')"
-          
-          # 推送到私库
           echo "正在推送到私库..."
           git push origin main
           echo "文件已成功推送到私库"
         fi
-        
+
         # 清理临时目录
         cd /
         rm -rf /tmp/push-repo
         echo "推送任务完成"
-        
+
     - name: Commit and push changes
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@users.noreply.github.com"
-        git add migu/IP || true
-        git commit -m "IP文件" || echo "⚠️ 无需提交"
+        # 修复：提交 demo.txt 文件
+        git add mymg/mgip/demo.txt || true
+        git commit -m "频道文件 $(date '+%Y-%m-%d %H:%M:%S')" || echo "⚠️ 无需提交"
         git push origin main || echo "⚠️ 推送失败"
